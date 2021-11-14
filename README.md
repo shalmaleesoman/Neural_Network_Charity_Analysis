@@ -37,5 +37,7 @@ No, the model is under 75%, hence it is not a satisfying performance to help pre
 * added hidden layers to increase the number of neurons, using an optimized model with three hidden layers.
 * tried a different activation function (tanh), however, none of these helped.
 
+## Summary
 
+This deep learning neural netowrk did not reach the target of 75% accuracy, leading us to conclude that this model is not outperforming. Although we tried adding layers, applyding different features and using different activation functions, the model is still not good enough. Factors that would help this model be more precise would be more data to analyze, or a supervised machine learning model
 
