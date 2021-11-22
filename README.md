@@ -4,6 +4,11 @@
 
 The purpose of this project was to use neaural networks with the Tensorflow platform in the MLNEV environment of Python to analyze whether applicants will be successful if funded by Alphabet Soup.
 
+#### Methods:
+* Preprocessing the data for teh neural network model.
+* compile, train and evaluate the model
+* optimize the model.
+
 ## Resources Used
 
 * charity_data.csv
@@ -18,6 +23,8 @@ The purpose of this project was to use neaural networks with the Tensorflow plat
 * "EIN' and "NAME" columns were dropped from the input data
 
 ### Compiling, Training, and Evaluating the Model
+
+The neural network model is made of two hidden layers with 80 & 30 neurons respectively. Input data has 43 features and 25,723 samples.
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
@@ -39,5 +46,5 @@ No, the model is under 75%, hence it is not a satisfying performance to help pre
 
 ## Summary
 
-This deep learning neural netowrk did not reach the target of 75% accuracy, leading us to conclude that this model is not outperforming. Although we tried adding layers, applyding different features and using different activation functions, the model is still not good enough. Factors that would help this model be more precise would be more data to analyze, or a supervised machine learning model
+This deep learning neural netowrk did not reach the target of 75% accuracy, leading us to conclude that this model is not outperforming. Although we tried adding layers, applyding different features and using different activation functions, the model is still not good enough. Factors that would help this model be more precise would be more data to analyze, or a supervised machine learning model such as the Random Forest Classifier to combine a large quantities of decision tree to generate and evaluate against the deep learning model 
 
